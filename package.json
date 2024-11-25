@@ -2,7 +2,7 @@
   "name": "cadastro-pacientes",
   "license": "0BSD",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "App.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -11,13 +11,14 @@
   },
   "dependencies": {
     "cadastro-pacientes": "file:",
-    "expo": "~52.0.11",
+    "expo": "^52.0.11",
     "expo-status-bar": "~2.0.0",
     "react": "18.3.1",
     "react-native": "0.76.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "@react-native-community/cli": "^15.1.2"
   },
   "private": true
 }
