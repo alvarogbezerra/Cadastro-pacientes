@@ -1,4 +1,5 @@
 import React from 'react';
+import Form from './src/components/Form';
 import { SafeAreaView, StyleSheet, Text } from 'react-native';
 
 export default function App() {
